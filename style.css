@@ -1,0 +1,409 @@
+body {
+  margin: 0;
+  font-family: UberMove, sans-serif;
+}
+
+.main {
+  width: 100%;
+  background-image: url("img/cover.jpg");
+  background-size: cover;
+  height: 750px;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+}
+
+.left {
+  width: 70%;
+  height: 100px;
+  float: left;
+}
+
+.menu {
+  width: 70px;
+  float: left;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+}
+
+.logo > a {
+  padding-left: 30px;
+}
+.menu > a > i {
+  color: black;
+  font-size: 30px;
+}
+
+.logo {
+  width: 70%;
+  float: left;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right {
+  width: 30%;
+  height: 100px;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn1 {
+  margin-left: 190px;
+  font-size: 25px;
+  border-radius: 25px;
+  padding: 15px 20px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  background-color: #ccc;
+}
+.btn2:hover {
+  background-color: #333;
+}
+.btn2 {
+  margin-left: 15px;
+  font-size: 25px;
+  border-radius: 25px;
+  padding: 15px 20px;
+  background: black;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+.heading {
+  height: 220px;
+  width: 100%;
+}
+.head1 {
+  font-size: 50px;
+  padding-top: 155px;
+  padding-left: 50px;
+}
+.search-section {
+  height: 56px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  height: inherit;
+  width: 95%;
+  display: flex;
+}
+
+.input {
+  height: 100%;
+  width: 540px;
+  display: flex;
+  border-bottom: solid 2px black;
+}
+
+.input > i {
+  width: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  background-color: #fff;
+}
+
+.input > input {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border: none;
+  font-size: 20px;
+  padding: 0;
+}
+
+.drop-list {
+  display: flex;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.drop-list > i {
+  height: 100%;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  background-color: #fff;
+}
+
+.drop-list > select {
+  height: inherit;
+  width: 140px;
+  background-color: #fff;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.drop-list > option {
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+}
+.food-btn {
+  height: inherit;
+  width: 100px;
+  font-size: 15px;
+  border: none;
+  margin-left: 10px;
+}
+
+.food-btn > button {
+  width: 110px;
+  height: inherit;
+  background-color: black;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.food-btn > button:hover {
+  background-color: #333;
+}
+
+
+p > u {
+  font-size: 14px;
+  font-weight: 500px;
+  margin-left: 60px;
+}
+
+.center {
+  width: 100%;
+  height: 500px;
+}
+.cards {
+  width: 100%;
+  height: 430px;
+}
+.card1 {
+  width: 33%;
+  height: 430px;
+  float: left;
+}
+.card2 {
+  width: 33%;
+  height: 430px;
+  float: left;
+}
+.card3 {
+  width: 34%;
+  height: 430px;
+  float: left;
+}
+.carding {
+  height: 275px;
+  width: 90%;
+  margin-top: 100px;
+  margin-left: 40px;
+}
+.cardhead {
+  font-size: 28px;
+  font-weight: 700;
+  color: black;
+  margin-left: 40px;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+a {
+  text-decoration: none;
+}
+.cardlink {
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  margin-left: 40px;
+  text-decoration: underline;
+  margin-top: 5px;
+}
+.middle {
+  width: 100%;
+  height: 500px;
+}
+.mtop {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+.mbottom {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+}
+.citieshead {
+  font-size: 36px;
+  font-weight: 700px;
+  color: black;
+  margin-left: 40px;
+}
+.viewcitie {
+  font-size: 16px;
+  font-weight: 500px;
+  text-decoration: underline;
+  color: black;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+.places {
+  width: 100%;
+  height: 350px;
+}
+.placebox1 {
+  height: 100%;
+  width: 25%;
+  float: left;
+  display: flex;
+  justify-content: space-around;
+}
+.placebox2 {
+  height: 100%;
+  width: 25%;
+  float: left;
+}
+
+.placebox3 {
+  height: 100%;
+  width: 25%;
+  float: left;
+}
+
+.placebox4 {
+  height: 100%;
+  width: 25%;
+  float: left;
+}
+
+.cities > li {
+  font-size: 17px;
+  padding-top: 25px;
+  margin-right: 180px;
+  list-style: none;
+}
+.countries {
+  width: 100%;
+  height: 500px;
+}
+.countrieshead {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.countriesbody {
+  width: 100%;
+  height: 90%;
+}
+.footer {
+  width: 100%;
+  height: 500px;
+  border: 1px solid lightslategray;
+}
+.innerbox {
+  width: 95%;
+  height: 60%;
+  margin-left: 40px;
+  margin-top: 70px;
+}
+.logobox {
+  width: 50%;
+  height: 100%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+}
+.list1 {
+  width: 25%;
+  height: 100%;
+  float: left;
+}
+.list2 {
+  width: 25%;
+  height: 100%;
+  float: left;
+}
+.listorder > li {
+  padding-top: 20px;
+  list-style: none;
+}
+.logosocial > .googleimg {
+  width: 135px;
+  margin-top: 220px;
+}
+
+.footerend {
+  width: 100%;
+  height: 40px;
+}
+.footerend1 {
+  width: 7%;
+  height: 100%;
+  margin-left: 50px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  float: left;
+}
+.footerend1 > a {
+  color: black;
+}
+.footerend2 {
+  height: 100%;
+  width: 40%;
+  float: left;
+  margin-left: 700px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerend2 > a {
+  color: black;
+}
+
+.privacy {
+  color: black;
+  font-size: 30px;
+}
+.footerend3 {
+  width: 60%;
+  height: 100px;
+  margin-left: 550px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerend3 > p {
+  font-size: 15px;
+}
+
+.footerend3 > p > span {
+  cursor: pointer;
+}
+
+.footerend3 > p > span:hover {
+  text-decoration: underline;
+}
